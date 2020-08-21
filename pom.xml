@@ -9,8 +9,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Life-Microservice</name>
-	<description>Life Microservice</description>
+	<name>LifeMS</name>
+	<description>LifeMS</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -23,6 +23,10 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>8</java.version>
+		 <sonar.projectKey>GuddintiPriyanka_life</sonar.projectKey>
+  <sonar.organization>guddintipriyanka</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>07568720f8353c4afca42a75af8ff0aa0aec94ec</sonar.login>
 	</properties>
 <dependencyManagement>
 		<dependencies>
